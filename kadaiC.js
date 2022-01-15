@@ -25,5 +25,5 @@ function clock(){
   let clock = document.getElementById("clock");
   
   //現在の時刻をpタグに表示
-  clock.textContent = year + '年' + month + '月' + date + '日' + '（' + myDay[day] + '）'  + hour + '時' + min + '分' + sec + '秒';
+  clock.textContent = myDay[day] + ',　' year + '-' + month + '-' + date + '　　'  + hour + '：' + min + '：' + sec;
 }
