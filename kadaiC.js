@@ -6,7 +6,7 @@ function start(){
 //時刻を表示する関数
 function clock(){
   //現在の日時を取得
-  let myDay = new Array("SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT");
+  let myDay = new Array("SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY");
   let now = new Date(); //現在の日時を得る
   let year = now.getFullYear(); //年
   let month = now.getMonth()+1; //月
