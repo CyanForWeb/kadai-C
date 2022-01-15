@@ -6,7 +6,7 @@ function start(){
 //時刻を表示する関数
 function clock(){
   //現在の日時を取得
-  let myDay = new Array("SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY");
+  let myDay = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
   let now = new Date(); //現在の日時を得る
   let year = now.getFullYear(); //年
   let month = now.getMonth()+1; //月
@@ -25,5 +25,5 @@ function clock(){
   let clock = document.getElementById("clock");
   
   //現在の時刻をpタグに表示
-  clock.textContent = myDay[day] + ',　'+ year + '-' + month + '-' + date + '　　'  + hour + '：' + min + '：' + sec;
+  clock.textContent = myDay[day] + ', '+ year + ' - ' + month + ' - ' + date + ' '  + hour + '：' + min + '：' + sec;
 }
