@@ -1,7 +1,7 @@
 h1.title{
     text-align: center;
     font-style: italic;
-    font-size: 12ex;
+    font-size: 20px;
     color: #336600;
     font-family: fantasy;
     text-shadow: 5px 5px 3px #FFEBCD;
@@ -11,5 +11,5 @@ p.body{
   text-align: center;
   color: #663300;
   font-family: cursive;
-  font-size: 24px;
+  font-size: xx-large;
 }
