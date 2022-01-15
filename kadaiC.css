@@ -1,4 +1,4 @@
-h1{
+h1.title{
     text-align: center;
     font-style: italic;
     font-size: 12ex;
@@ -7,7 +7,7 @@ h1{
     text-shadow: 5px 5px 3px #FFEBCD;
 }
 
-p{
+p.body{
   text-align: center;
   color: #663300;
   font-family: cursive;
